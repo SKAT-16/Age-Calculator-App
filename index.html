@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="main unselectable">
+      <button class="theme-changer"><span></span></button>
+      <h1 class="title">AGE CALCULATOR</h1>
+      <form action="" method="get" class="input-section">
+        <div id="day-input">
+          <h6>DAY</h6>
+          <input type="number" minlength="1" maxlength="2" placeholder="DD" />
+          <p></p>
+        </div>
+        <div id="month-input">
+          <h6>MONTH</h6>
+          <input type="number" minlength="1" maxlength="2" placeholder="MM" />
+          <p></p>
+        </div>
+        <div id="year-input">
+          <h6>YEAR</h6>
+          <input type="number" minlength="1" placeholder="YYYY" />
+          <p></p>
+        </div>
+      </form>
+      <div class="submit-section">
+        <hr />
+        <img
+          src="assets/images/icon-arrow.svg"
+          alt="no-image"
+          class="submit-btn"
+        />
+        <hr class="second-line" />
+      </div>
+      <div class="output-section">
+        <h1><span id="years-text">- -</span> years</h1>
+        <h1><span id="months-text">- -</span> months</h1>
+        <h1><span id="days-text">- -</span> days</h1>
+      </div>
+    </div>
+
+    <script type="module" src="./assets/script.js" async defer></script>
+  </body>
+</html>
